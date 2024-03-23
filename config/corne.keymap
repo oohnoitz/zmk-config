@@ -18,7 +18,7 @@
    &kp TAB        &kp Q   &kp W  &kp E  &kp R         &kp T           &kp Y       &kp U           &kp I      &kp O    &kp P     &kp BSPC
    &mt LCTRL ESC  &kp A   &kp S  &kp D  &kp F         &kp G           &kp H       &kp J           &kp K      &kp L    &kp SQT   &sk LALT
    &sk LSHFT      &kp Z   &kp X  &kp C  &kp V         &kp B           &kp N       &kp M           &kp COMMA  &kp DOT  &kp FSLH  &sl 3
-                                 &mo 4  &mt RET LGUI  &lt 1 TAB       &lt 2 BSPC  &mt LGUI SPACE  &sk LSHFT
+                                 &mo 4  &mt LGUI RET  &lt 1 TAB       &lt 2 BSPC  &mt LGUI SPACE  &sk LSHFT
                         >;
                 };
 
@@ -35,7 +35,7 @@
                         bindings = <
    &trans  &none     &none    &kp UNDER   &kp PLUS     &kp PG_UP      &kp C_BRI_INC  &kp C_BRI_DEC  &none       &kp BSLH      &kp PIPE      &trans
    &trans  &kp HOME  &kp END  &kp MINUS   &kp EQUAL    &kp PG_DN      &kp LEFT       &kp DOWN       &kp UP      &kp RIGHT     &kp K_APP        &trans
-   &trans  &kp LT    &kp RT   &kp K_COPY  &kp K_PASTE  &kp SEMI       &kp C_PP       &kp C_PREV     &kp C_NEXT  &kp C_VOL_UP  &kp C_VOL_DN  &trans
+   &trans  &kp LT    &kp GT   &kp K_COPY  &kp K_PASTE  &kp SEMI       &kp C_PP       &kp C_PREV     &kp C_NEXT  &kp C_VOL_UP  &kp C_VOL_DN  &trans
                                 &trans    &trans       &trans         &trans     &trans   &trans
                         >;
                 };
