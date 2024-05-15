@@ -40,6 +40,7 @@
   behaviors {
     aml: aml {
       compatible = "zmk,behavior-hold-tap";
+      #binding-cells = <2>;
       tapping-term-ms = <250>;
       quick-tap-ms = <150>;
       flavor = "balanced";
@@ -50,6 +51,7 @@
     };
     asl: asl {
       compatible = "zmk,behavior-hold-tap";
+      #binding-cells = <2>;
       tapping-term-ms = <200>;
       quick-tap-ms = <150>;
       flavor = "balanced";
@@ -59,6 +61,7 @@
     };
     amr: amr {
       compatible = "zmk,behavior-hold-tap";
+      #binding-cells = <2>;
       tapping-term-ms = <250>;
       quick-tap-ms = <150>;
       flavor = "balanced";
@@ -69,6 +72,7 @@
     };
     asr: asr {
       compatible = "zmk,behavior-hold-tap";
+      #binding-cells = <2>;
       tapping-term-ms = <200>;
       quick-tap-ms = <150>;
       flavor = "balanced";
