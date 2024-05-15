@@ -67,7 +67,7 @@
       hold-trigger-on-release;
       require-prior-idle-ms = <100>;
     };
-    asr: asl {
+    asr: asr {
       compatible = "zmk,behavior-hold-tap";
       tapping-term-ms = <200>;
       quick-tap-ms = <150>;
