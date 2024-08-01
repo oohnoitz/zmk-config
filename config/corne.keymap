@@ -17,6 +17,9 @@
 #define XXX &none
 #define ___ &trans
 
+#define NAV_UP    &mt LC(HOME) UP      // tap: up    | long-tap: beginning of document
+#define NAV_DOWN  &mt LC(END)  DOWN    // tap: down  | long-tap: end       of document
+
 &mt {
   tapping-term-ms = <200>;
   flavor = "tap-preferred";
@@ -132,9 +135,9 @@
       display-name = "NAV";
       bindings = <
       //+----------------+----------------+----------------+----------------+----------------+----------------+ +----------------+----------------+----------------+----------------+----------------+----------------+
-          ___              &kp C_MUTE       &msc SCRL_UP     &msc SCRL_DOWN   XXX              XXX                &kp HOME         &kp PG_DN        &kp PG_UP        &kp END          &kp PSCRN        ___
+          ___              &kp C_MUTE       XXX              XXX              XXX              XXX                &kp PG_UP        &kp HOME         NAV_UP           &kp END          &kp PSCRN        ___
       //+----------------+----------------+----------------+----------------+----------------+----------------+ +----------------+----------------+----------------+----------------+----------------+----------------+
-          ___              &kp LGUI         &kp LALT         &kp LSHFT        &kp LCTRL        XXX                &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp K_APP        ___
+          ___              &kp LGUI         &kp LALT         &kp LSHFT        &kp LCTRL        XXX                &kp PG_DN        &kp LEFT         NAV_DOWN         &kp RIGHT        &kp K_APP        ___
       //+----------------+----------------+----------------+----------------+----------------+----------------+ +----------------+----------------+----------------+----------------+----------------+----------------+
           ___              XXX              XXX              XXX              XXX              XXX                &kp C_PP         &kp C_PREV       &kp C_NEXT       &kp C_VOL_DN     &kp C_VOL_UP     ___
       //+----------------+----------------+----------------+----------------+----------------+----------------+ +----------------+----------------+----------------+----------------+----------------+----------------+
